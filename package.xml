@@ -1,0 +1,17 @@
+<package format="2">
+  <name>social_msgs</name>
+  <version>0.0.0</version>
+  <description>social_msgs</description>
+  <author>me</author>
+  <maintainer email="me@email.com">me</maintainer>
+
+  <license>BSD</license>
+  <url></url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
