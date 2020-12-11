@@ -13,6 +13,8 @@ add_message_files(
     Person.msg
     Objects.msg
     Object.msg
+    Locals.msg
+    Local.msg
     PointArray.msg
 )
 
