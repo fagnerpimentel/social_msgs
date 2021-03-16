@@ -1,0 +1,3 @@
+string name
+---
+social_msgs/Destination[] destination_list

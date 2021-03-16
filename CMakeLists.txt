@@ -11,11 +11,19 @@ add_message_files(
    FILES
     People.msg
     Person.msg
+    Group.msg
+    GroupArray.msg
     Objects.msg
     Object.msg
     Locals.msg
     Local.msg
     PointArray.msg
+		Destination.msg
+)
+
+add_service_files(
+  FILES
+	DestinationArray.srv
 )
 
 generate_messages(
